@@ -1,15 +1,18 @@
-// This is my first JavaScript
-console.log("hello world It's me again Novestus");
+// Programming with MOSH
+// This is my first JavaScript lesson code
+
+console.log("hello world It's me again the one and only developer Novestus");
 
 // Naming cannot be reserved words i.e if,let...
 // Naming should be meanngful words
 // They cannot start with a number
 // They cannot have a space or hyphen
 // They are case-sensitive
-let name = "Novestus";
-console.log(name);
+let fname = "Novestus";
+console.log(fname);
 
 let interestRate = 0.3;
+
 interestRate = 1;
 console.log(interestRate);
 
@@ -75,3 +78,22 @@ function square(number){
  return number * number;
 }
 console.log(square(3));
+ //TechWorld with Nana
+
+//Arrays and Objects
+//syntax:
+//Arrays [], objects {}, strings "", booleans false or true, numbers/integer '2'
+
+nove = [
+{outherName: "Kipkorir", ratings: "5", explanation: "good health"},
+{firstrName: "Kipkorir", ratings: "5", explanation: "good health"},
+{lasrtName: "Kipkorir", ratings: "5", explanation: "good health"}
+
+]
+
+console.log(nove);
+
+// Comparison Operators
+var son = 'Kipkoech';
+ age = 30;
+console.log(son + ' ' + age);
