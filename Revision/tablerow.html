@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 60%;
+            margin: 20px auto;
+        }
+        th, td{
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: center;
+        }
+        th{
+            background-color: bisque;
+        }
+        tr:nth-child(odd){
+            background-color: darkkhaki;
+        }
+        tfoot{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h2>Product Prices</h2>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <td>Price</td>
+            </tr>
+        </thead>
+
+
+        <tbody>
+            <tr>
+                <th>Product Name 1</th>
+                <td>$10.00</td>
+            </tr>
+            <tr>
+                <th>Product Name2</th>
+                <td>$120.00</td>
+            </tr>
+            <tr>
+                <th>Product Name 3</th>
+                <td>$410.00</td>
+            </tr>
+            <tr>
+                <th>Product Name  4</th>
+                <td>$110.00</td>
+            </tr>
+            <tr>
+                <th>Product Name 5</th>
+                <td>$510.00</td>
+            </tr>
+            <tr>
+                <th>Product Name</th>
+                <td>$180.00</td>
+            </tr>
+
+
+            <tfoot>
+                <tr>
+                    <th>Total</th>
+                    <td>$000.000</td>
+                </tr>
+            </tfoot>
+        </tbody>
+    </table>
+</body>
+</html>

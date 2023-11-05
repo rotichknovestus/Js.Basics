@@ -1,5 +1,8 @@
 // Programming with MOSH
 // This is my first JavaScript lesson code
+  
+let name = 'Mosh';
+console.log(name);
 
 console.log("hello world It's me again the one and only developer Novestus");
 
@@ -8,8 +11,8 @@ console.log("hello world It's me again the one and only developer Novestus");
 // They cannot start with a number
 // They cannot have a space or hyphen
 // They are case-sensitive
-let fname = "Novestus";
-console.log(fname);
+let firstName = "Novestus";
+console.log(firstName);
 
 let interestRate = 0.3;
 
@@ -21,6 +24,9 @@ console.log(interestRate);
 const intrestRate = 3;
 console.log(interestRate);
 
+// In JavaScrip we have primitives/Value types and reference Types
+// Primitives are: Strings,Number,Boolean,undefined,null
+
 let sirName = "Mosh"; // string literal
 console.log(sirName);
 
@@ -30,14 +36,12 @@ console.log(age);
 let isApproved = false; //Boolean literal
 console.log(isApproved);
 
-let firstName = undefined;
+firstName = undefined; 
 console.log(firstName);
 
 let selectedColor = null;
 console.log(selectedColor);
 
-// in JavaScrip we have primitives/Value types and reference Types
-// Primitives are: Strings,Number,Boolean,undefined,null
 // Reference Types are: Objects, Arrays and Functions
 
 // OBJECTS
@@ -45,6 +49,24 @@ let person = {
   firstName: 'Mosh',
   age: 30
 };
+console.log(person);
+
+let isRainow = {
+  color1: 'yellow',
+  color2: 'red',
+  color3: 'blue',
+  color4: 'black',
+  total: 7
+};
+console.log(isRainow);
+
+let house = {
+  kitchen: 3,
+  sittingRoom: 4,
+  washRoom: 'seven'
+};
+console.log(house); 
+
 // Dot Notation
 person.firstName = 'Novestus';
 
@@ -62,12 +84,22 @@ let someColors = ['red','blue'];
 someColors[2] = 'black';
 console.log(someColors);
 
+let rainBow = ['red', 'blue', 'yellow', 'green', 'white'];
+rainBow [5] = 'black';
+console.log(rainBow);
+
 // FUNCTIONS
 // function is a set of stetments that either perform a task or calculate and return a value.
 
+//*Function syntax:
+/*function  fx name (parameter){
+  body
+}
+*/
+
 // Performing a task
 function greet(sirName, lastName){
-  console.log('hello ' + name + '' + lastName);
+  console.log('hello ' + sirName + '' + lastName);
 }
 
 greet('Novestus ', ' Kipkorir');
@@ -78,6 +110,9 @@ function square(number){
  return number * number;
 }
 console.log(square(3));
+
+
+
  //TechWorld with Nana
 
 //Arrays and Objects
@@ -97,3 +132,28 @@ console.log(nove);
 var son = 'Kipkoech';
  age = 30;
 console.log(son + ' ' + age);
+
+
+function greet (firstName, secondName) {
+  console.log('Hello ' + firstName + '' + secondName);
+}
+greet('Emmah ', 'Chepkoech');
+
+function square(number){
+  return number * number;
+}
+console.log(square(4))
+
+
+
+let swim = 25;
+let swim2 = '5';
+let sum = swim + swim2;
+
+console.log(sum);
+
+let win = 25;
+let win2 = 5;
+let best = win + win2;
+
+console.log(best);
